@@ -1,0 +1,164 @@
+html {
+	font-size: 100%;
+}
+
+body {
+	width: 100%;
+}
+
+.top {
+	margin: 0;
+	padding: 0;
+	top: -20px;
+	left: 0;
+	right: 0;
+	height: 200px;
+	background-color: #495DDA;
+	position: absolute;
+}
+
+.top-title {
+	border: none;  /* 1px solid pink */
+	top: 50px;
+	left: 15%;
+	width: 70%;
+	height: 100px;
+	z-index: 5;
+	text-align: center;
+	font-family: "microsoft yahei", Verdana, Lucida, arial, sans-serif;
+	font-size: 1.5rem;
+	position: absolute;	
+}
+
+.Buy-ticket-box {
+	border: 1px solid #9EA2AD;
+	box-shadow: 1px 1px 3px 1px #BBBBBB;
+	top: 140px;
+	left: 150px;
+	right: 150px;
+	height: 1800px;
+	position: absolute;
+}
+
+.top-item {
+	border: none;  /*  1px solid #44A9E0 */
+	left: 50px;
+	right: 50px;
+	top: 20px;
+	height: 380px;
+	position: absolute;
+}
+
+.picture {
+	border: none;  /* 1px solid green */
+	border-radius: 1rem;
+	width: 280px;
+	height: 380px;
+}
+
+.picture img {
+	border-radius: 1rem;
+	width: 100%;
+	height: 100%;
+}
+
+.right-side {
+	border: none;  /* 1px solid red */
+	top: 25px;
+	left: 320px;
+	right: 10px;
+	height: 350px;
+	position: absolute;
+}
+
+.rank-mark {
+	border: none;  /* 1px solid #46CDE9 */
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	left: 400px;
+	background-color: #079D3D;
+	position: absolute;
+}
+
+.right-side ul {
+	border: none;   /* 1px solid black  */
+	margin: 0;
+	padding: 0;
+	width: 550px;
+	height: 350px;
+	list-style: none;
+	display: block;
+	float: left;
+	font-size: 1.2rem;
+	text-align: left;
+	position: relative;
+}
+
+.right-side ul li {
+	border: none;  /* 1px solid #479A50 */
+	width: 550px;
+	height: 40px;
+	color: grey;
+	margin-bottom: 15px !important;
+}
+
+.right-side ul li:nth-child(5) {
+	width: 550px;
+	height: 110px;
+	color: grey;
+	margin-bottom: 0px !important;
+}
+
+.right-side ul li div:nth-child(1) {
+	width: 100px;
+	height: 40px;
+	padding-top: 2px;
+	line-height: 35px;
+}
+
+.right-side ul li div:nth-child(2) {
+	margin-left: 80px;
+	margin-top: -37px;
+	position: relative;
+}
+
+.p-class {
+	font-size: 0.9rem;
+}
+
+#span-1 {
+	color: black;
+}
+
+#span-2 {
+	visibility: hidden;
+}
+
+.middle-item {
+	border: 1px solid pink;
+	top: 460px;
+	left: 20px;
+	right: 20px;
+	height: 1000px;
+	position: absolute;
+}
+
+.middle-item-left {
+	border: 1px solid red;
+	top: 460px;
+	width: 300px;
+	height: 400px;
+	position: fixed;
+}
+
+.middle-item-left-top {
+	border: 1px solid blue;
+	margin: 0;
+	width: 300px;
+	height: 50px;
+}
+
+.middle-item-left-top {
+
+}

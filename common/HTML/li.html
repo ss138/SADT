@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>li的使用</title>
+	<script src="../Javascript/jquery.min.js"></script>
+	<style type="text/css">
+		html {
+			font-size: 100%;
+		}
+
+		.box {
+			border: 1px solid pink;
+			top: 50px;
+			left: 150px;
+			right: 150px;
+			height: 950px;
+			position: absolute;
+		}
+
+		.box ul {
+			border: 1px solid red;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			display: block;
+			list-style: none;
+			position: absolute;
+		}
+
+		.box ul li {
+			border: 1px solid black;
+			margin-left: 150px;
+			width: 550px;
+			height: auto;
+			margin-bottom: 20px;
+			text-align: center;
+			float: left;
+		}
+		
+		hr {
+			size: 1;
+			color: grey;
+			opacity: 0.7;
+		}
+
+		.left {
+			border: 1px solid blue;
+			margin-left: 50px;
+			width: 300px;
+			
+		}
+
+		.left div:nth-child(1) {
+			font-size: 1.2rem;
+			margin-bottom: 5px;
+		}
+
+		.left div:nth-child(2) {
+			font-size: 1.2rem;
+		}
+
+		.button {
+			border: 1px solid grey;
+			border-radius: 10px;
+			width: 100px;
+			height: 30px;
+			margin-left: 400px;
+			margin-top: -50px;
+		}
+
+		.pict {
+			border: 1px solid #27BF9E;
+			margin-top: 35px;
+			margin-left: 150px;
+			width: 350px;
+			height: 0px;
+			margin-bottom: 15px;
+			visibility: hidden;
+		}
+
+		.pict img {
+			width: 100%;
+			height: 100%;
+		}
+
+	</style>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".button").mouseenter(function() {
+			$(this).css('cursor', 'pointer');
+			$(this).siblings('.pict').css('visibility', 'visible');
+			$(this).siblings('.pict').css('height', '200px');
+		});
+
+		$(".button").mouseleave(function() {
+			$(this).css('cursor', 'default');
+			$(this).siblings('.pict').css('visibility', 'hidden');
+			$(this).siblings('.pict').css('height', '0px');
+		});
+		});
+
+		
+
+	</script>
+
+
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+				<div class="pict"><img src="../../Image/avril/avril1.jpeg" /></div>
+			</li>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+				<div class="pict">
+					<img src="../../Image/avril/avril2.jpg" />
+				</div>
+			</li>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+			    <div class="pict"><img src="../../Image/avril/avril3.jpg" /></div>
+			</li>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+				<div class="pict"><img src="../../Image/avril/avril4.jpg" /></div>
+			</li>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+				<div class="pict"><img src="../../Image/avril/avril5.jpg" /></div>
+			</li>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+				<div class="pict"><img src="../../Image/avril/avril6.jpg" /></div>
+			</li>
+			<li>
+				<hr />
+				<div class="left"> 
+					<div>艾薇儿拉维尼</div>
+					<div>摇滚公主</div>
+				</div>
+				<div class="button">点击</div>
+				<div class="pict"><img src="../../Image/Avril.jpg" /></div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
